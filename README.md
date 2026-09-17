@@ -2,6 +2,8 @@
 
 **Computational Biology · Functional Genomics · Omics Data Analysis**
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Michalis--Daniel_Lazar-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/michalis-daniel-lazar-5b323923b/)
+
 ![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
