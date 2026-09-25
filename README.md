@@ -13,7 +13,7 @@
 
 I am a computational biology graduate trained in **genomics, bioinformatics and biochemistry**, with an MSc in **Genomics, Informatics and Mathematics for Health and Environment (GENIOMHE)** from Université Paris-Saclay and a BSc in Biochemistry from Babeș-Bolyai University.
 
-My research has covered **Ribo-seq, comparative genomics, meta-omics, functional annotation, metabolic reconstruction and machine learning**. Most recently, I developed a reproducible framework to study how translation signals outside annotated coding genes recur across heterogeneous yeast Ribo-seq datasets.
+My work spans **Ribo-seq, comparative genomics, meta-omics, functional annotation, metabolic reconstruction and machine learning**. I am particularly interested in computational approaches that connect molecular data with biological mechanism.
 
 **Research interests:** RNA biology · functional genomics · systems biology · comparative genomics · computational biomedicine
 
@@ -21,28 +21,39 @@ My research has covered **Ribo-seq, comparative genomics, meta-omics, functional
 
 ### 🧬 [iORF recurrence framework](https://github.com/Mishuda/iORF-recurrence-framework)
 
-Cross-dataset analysis of pervasive translation across **54 yeast Ribo-seq datasets**. The workflow defines a stringent candidate set, evaluates dataset-specific support against an empirical low-signal reference, and includes recurrence, QC, genomic-context and sensitivity analyses.
+Reproducible cross-dataset analysis of pervasive translation across **54 yeast Ribo-seq datasets**. The workflow defines a stringent candidate set, evaluates dataset-specific support against an empirical low-signal reference, and includes recurrence, QC, genomic-context and sensitivity analyses.
 
 `R` `Ribo-seq` `Statistics` `Reproducible workflows` `Data visualization`
 
-### 🔬 [Heatmapper Scripts](https://github.com/Mishuda/heatmapper-scripts)
+### 🧪 [Metabolic Reconstruction Library](https://github.com/Mishuda/metabolic_reconstruction_library)
 
-Python utilities for processing **KOfamScan** outputs and visualizing metabolic pathway completeness across archaeal genomes.
+Python workflow for calculating **KEGG module completeness from KO profiles**, developed during comparative-genomics work on Thermococcales. It includes KEGG module-logic parsing, KO handling, completeness calculation and reporting.
 
-`Python` `pandas` `Matplotlib` `KEGG` `Functional annotation`
+`Python` `KEGG` `KOfamScan` `Comparative genomics` `Metabolic reconstruction`
 
-### 🧮 [Max-Cut via Tabu Search](https://github.com/Mishuda/metaheu_max_cut)
+### 🩺 [Sepsis Representation Learning Sandbox](https://github.com/Mishuda/dl-sepsis-sandbox)
 
-Implementation and evaluation of Tabu Search for weighted Max-Cut, with incremental objective updates, reproducible graph generation and baseline comparisons.
+Experimental PyTorch project comparing **Euclidean and Poincaré latent representations** of multivariate sepsis time-series data using VAE-based models.
 
-`Python` `Optimization` `Algorithms` `Metaheuristics`
+`PyTorch` `VAE` `Time series` `Representation learning` `Hyperbolic geometry`
+
+### 🔬 [Metabolic Pathway Completeness Heatmaps](https://github.com/Mishuda/heatmapper-scripts)
+
+Python utilities for processing **KOfamScan** outputs and generating comparative heatmaps of KEGG module completeness across archaeal genomes.
+
+`Python` `pandas` `Matplotlib` `Functional annotation`
+
+## Other computational work
+
+- [**Max-Cut via Tabu Search**](https://github.com/Mishuda/metaheu_max_cut) — reproducible implementation and evaluation of a local-search metaheuristic for weighted Max-Cut.
+- [**pvae_patched**](https://github.com/Mishuda/pvae_patched) — compatibility patches to the upstream Poincaré VAE implementation used while exploring hyperbolic latent representations.
 
 ## Research snapshot
 
-- **I2BC, CNRS / Université Paris-Saclay** — built a downstream Ribo-seq workflow across 54 yeast datasets and developed an empirical framework for recurrent translation signals.
-- **Genoscope, CEA** — analysed **122 Thermococcales genomes** using pangenome analysis, functional annotation and metabolic reconstruction.
-- **Babeș-Bolyai University** — contributed to metagenomic and metatranscriptomic analysis of microbial communities and biogeochemical pathways in a hypersaline meromictic lake.
-- **GENIOMHE-AI** — worked on variational-autoencoder-based representation learning for sepsis trajectories, comparing Euclidean and hyperbolic latent spaces.
+- **I2BC, CNRS / Université Paris-Saclay** — downstream Ribo-seq workflow across 54 yeast datasets and empirical recurrence analysis of translation outside annotated coding genes.
+- **Genoscope, CEA** — pangenome analysis, functional annotation and metabolic reconstruction across **122 Thermococcales genomes**.
+- **Babeș-Bolyai University** — metagenomic and metatranscriptomic analysis of microbial communities and biogeochemical pathways in a hypersaline meromictic lake.
+- **GENIOMHE-AI** — variational-autoencoder-based representation learning for sepsis trajectories.
 
 ## Research outputs
 
